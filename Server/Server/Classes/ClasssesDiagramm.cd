@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Server.Classes.Character">
+    <Position X="2.5" Y="0.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>BCACAMwAYADAAiAABIIAAAQAAAAAAgAACYJISAEgCkg=</HashCode>
+      <FileName>Classes\Character.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Server.Classes.Religion">
+    <Position X="7.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Religion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
