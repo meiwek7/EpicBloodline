@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Server.Classes
 {
-    class Religion
+    public class Religion
     {
 
     }

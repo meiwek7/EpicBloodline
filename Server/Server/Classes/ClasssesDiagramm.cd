@@ -1,17 +1,49 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Server.Classes.Character">
-    <Position X="2.5" Y="0.5" Width="4.25" />
+  <Class Name="Server.Classes.CharacterTemplate">
+    <Position X="0.75" Y="0.75" Width="4.25" />
+    <AssociationLine Name="ownerId" Type="Server.Classes.User">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="2.923" Y="0.091" />
+      </MemberNameLabel>
+    </AssociationLine>
     <TypeIdentifier>
-      <HashCode>BCACAMwAYADAAiAABIIAAAQAAAAAAgAACYJISAEgCkg=</HashCode>
-      <FileName>Classes\Character.cs</FileName>
+      <HashCode>BCgCAMwIYADAAiAABIIAAAQAAAAAAgAACYJISAEgCkg=</HashCode>
+      <FileName>Classes\CharacterTemplate.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ownerId" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="Server.Classes.Religion">
-    <Position X="7.5" Y="1.25" Width="1.5" />
+    <Position X="16.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Classes\Religion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Server.Classes.User">
+    <Position X="8.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgACAAAAACAAAEAgAAAAQAAAQEAAAEgCAAAAAgIAAgA=</HashCode>
+      <FileName>Classes\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Server.Classes.CharacterProperty">
+    <Position X="12.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQKAAAEAAAAAAAAAAAAAAQAAAAFACABAQAgAQAACgA=</HashCode>
+      <FileName>Classes\CharacterProperty.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="character" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Server.Classes.Character">
+    <Position X="15.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Classes\Character.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
